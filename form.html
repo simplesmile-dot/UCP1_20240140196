@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Anggota</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Form Anggota</h1>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./form.html">Form</a>
+    <a href="./gallery.html">Gallery</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="card">
+    <form onsubmit="tambahData(event)">
+      <input type="text" id="nama" placeholder="Nama" required>
+      <input type="email" id="email" placeholder="Email" required>
+
+      <select id="minat">
+        <option>Web Dev</option>
+        <option>UI/UX</option>
+        <option>Data Science</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="hasil"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

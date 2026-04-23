@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Gallery</h1>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./form.html">Form</a>
+    <a href="./gallery.html">Gallery</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <h2>Gambar</h2>
+  <img id="gambar" src="images (5).jpg","download.jpg" width="400">
+  <br><br>
+  <button onclick="gantiGambar()">Ganti Gambar</button>
+
+  <h2>Video</h2>
+  <iframe width="400" height="250"
+    src="lalala.mp4" frameborder="0" allowfullscreen>
+  </iframe>
+
+  <h2>Audio</h2>
+  <audio id="audio" src="pedro-song.mp3"></audio>
+  <br><br>
+  <button onclick="playAudio()">Play</button>
+  <button onclick="pauseAudio()">Pause</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
